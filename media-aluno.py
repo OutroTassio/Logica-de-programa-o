@@ -7,6 +7,14 @@ nota4 = float(input("Nota 4: "))
 #proocessamento
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
+
+if media >= 7:
+    situacao = "aprovado"
+elif media >= 5:
+    situacao = "recuperação"
+else:
+    situacao = "reprovado"
+
 #saída de dados
 
-print(media)
+print(f'Média {media}, {situacao}')
