@@ -32,5 +32,5 @@ plt.plot(x,y)
 plt.xlabel("x")
 plt.ylabel("y")
 
-plt.title("eq")
+plt.title(eq)
 plt.show()
