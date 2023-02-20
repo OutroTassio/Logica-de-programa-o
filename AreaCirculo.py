@@ -6,4 +6,4 @@ r = float(input('Digite o valor do ráio: '))
 
 area = pi * r ** 2
 
-print(f'A área do circulo é {area:,.3f}')
+print(f'A área do circulo é {area:.3f}')
